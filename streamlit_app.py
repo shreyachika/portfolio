@@ -1,4 +1,5 @@
 import streamlit as st
+from streamlit_option_menu import option_menu
 
 st.set_page_config(layout="wide")
 
@@ -17,4 +18,10 @@ My projects extend to developing personalized recommendation systems and impleme
 Eager to contribute to technological innovation, I seek opportunities to collaborate on impactful solutions. Let's connect and explore the possibilities together! 🚀🔍
 """)
 st.write("[Read More](https://share.streamlit.io/)")  
+st.write('---')
 
+with st.container():
+  selected = option_menu(
+    menu title = None,
+    options = ['About', 'Projects', 'Contact']
+    icons = ['person', 'code-slash', 'chat-left-text-fill']
