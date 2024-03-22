@@ -6,13 +6,21 @@ from streamlit_lottie import st_lottie
 st.set_page_config(layout="wide")
 
 def load_lottieurl(url):
-  r = requests.get(url)
-  if r.status_code != 200:
-     return None
-  return r.json()
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    try:
+        return r.json()
+    except ValueError:
+        return None
 
-lottie_coder = load_lottieurl("https://lottie.host/a057da90-ee52-4c20-9503-3cabc899f5f0/2FKseZVZun.lottie")
+lottie_url = "https://lottie.host/17c36458-45d5-47ae-b9fc-9ff9b5cf73b5/IQmu8jcGOf.json"
+lottie_data = load_lottieurl(lottie_url)
 
+if lottie_data is not None:
+    st_lottie(lottie_data)
+else:
+    st.error("Failed to load Lottie animation.")
 
 st.write("##")
 st.subheader("Hey Guys :wave:")
