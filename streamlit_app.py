@@ -25,3 +25,4 @@ with st.container():
     menu title = None,
     options = ['About', 'Projects', 'Contact']
     icons = ['person', 'code-slash', 'chat-left-text-fill']
+  )
