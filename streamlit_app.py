@@ -22,7 +22,7 @@ st.write('---')
 
 with st.container():
   selected = option_menu(
-    menu title = None,
+    menu_title = None,
     options = ['About', 'Projects', 'Contact']
     icons = ['person', 'code-slash', 'chat-left-text-fill']
   )
