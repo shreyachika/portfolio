@@ -21,7 +21,7 @@ if lottie_data is not None:
     st_lottie(lottie_data)
 else:
     st.error("Failed to load Lottie animation.")
-
+    
 st.write("##")
 st.subheader("Hey Guys :wave:")
 st.title("My Portfolio Website")
