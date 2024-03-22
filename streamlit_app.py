@@ -1,7 +1,18 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
+import requests
+from streamlit_lottie import st_lottie
 
 st.set_page_config(layout="wide")
+
+def load_lottieurl(url):
+  r = requests.get(url)
+  if r.status_code != 200:
+     return None
+  return r.json()
+
+lottie_coder = load_lottieurl("https://lottie.host/a057da90-ee52-4c20-9503-3cabc899f5f0/2FKseZVZun.lottie")
+
 
 st.write("##")
 st.subheader("Hey Guys :wave:")
@@ -24,5 +35,17 @@ with st.container():
   selected = option_menu(
     menu_title = None,
     options = ['About', 'Projects', 'Contact'],
-    icons = ['person', 'code-slash', 'chat-left-text-fill']
+    icons = ['person', 'code-slash', 'chat-left-text-fill'],
+    orientation = 'horizontal'
   )
+if selected == 'About':
+
+  with st.container():
+    col1, col2 = st.columns(2)
+    with col1:
+      st.write("##")
+      st.subheader("I am Shreya Chikatmarla")
+      st.title("Grad at SJSU")
+    with col2:
+      st_lottie(lottie_coder)
+
