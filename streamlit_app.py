@@ -2,6 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import requests
 from streamlit_lottie import st_lottie
+from PIL import Image
 
 st.set_page_config(layout="wide")
 
@@ -16,6 +17,7 @@ def load_lottieurl(url):
 
 lottie_url = "https://lottie.host/17c36458-45d5-47ae-b9fc-9ff9b5cf73b5/IQmu8jcGOf.json"
 lottie_data = load_lottieurl(lottie_url)
+image = Image.open("/Users/shreyachikatmarla/Desktop/Pic")
 
 if lottie_data is not None:
     st_lottie(lottie_data)
@@ -74,3 +76,26 @@ with st.container():
               - Bachelor of Engineering in Information Technology
               - Grade: 3.9 / 4
         """)
+   with col4:
+       st.subheader("""
+       Experience
+       - Graduate Research Assistant
+               - August 2023 to February 2024
+               - San Jose, CA
+       - QA Engineer - Data Integration
+               - March 2020 - February 2021
+               - Accenture, India
+       - Software Engineer Intern
+               - January 2017 - July 2017
+               - AppCloud Software Solutions, India
+       """)
+
+if seclected =="Projects":
+    with st.container():
+        st.header("My Projects")
+        st.write("##")
+        col5,col6 = st.columns(1,2)
+        with col5:
+            st.image(image)
+       
+      
