@@ -1,5 +1,4 @@
 import streamlit as st
-from streamlit_option_menu import option_menu
 
 st.set_page_config(layout="wide")
 
@@ -19,8 +18,5 @@ Eager to contribute to technological innovation, I seek opportunities to collabo
 st.write("[Read More](https://share.streamlit.io/)")  
 st.write('---')
 
-selected = st.selectbox("Select Section", ['About', 'Projects', 'Contact'])
-
-if selected == 'About':
-    st.write("## I am Shreya Chikatmarla")
-    st.title("Grad at SJSU")
+st.write("## I am Shreya Chikatmarla")
+st.title("Grad at SJSU")
