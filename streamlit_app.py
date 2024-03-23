@@ -56,3 +56,22 @@ if selected == 'About':
             st.title("Grad at SJSU")
         with col2:
             st_lottie(lottie_data)
+
+   st.write("---")
+
+   with st.container():
+       col3,col4 = st.columns(2)
+       with col3:
+           st.subheader("""
+           Education
+           - San Jose State University, San Jose
+                 - Master of Science in Data Science
+                 - Grade: 3.5 / 4
+           - Jawaharlal Nehru Technological University of Hyderabad
+                 - Master of Technology in Computer Science Engineering
+                 - Grade: 3.8 / 4
+           - Osmania University
+                 - Bachelor of Engineering in Information Technology
+                 - Grade: 3.9 / 4
+           """)
+           
