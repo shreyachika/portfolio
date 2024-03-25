@@ -2,7 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 import requests
 from streamlit_lottie import st_lottie
-from PIL import Image
+
 
 st.set_page_config(layout="wide")
 
@@ -17,7 +17,7 @@ def load_lottieurl(url):
 
 lottie_url = "https://lottie.host/17c36458-45d5-47ae-b9fc-9ff9b5cf73b5/IQmu8jcGOf.json"
 lottie_data = load_lottieurl(lottie_url)
-image = Image.open("/Users/shreyachikatmarla/Desktop/Pic.png")
+
 
 if lottie_data is not None:
     st_lottie(lottie_data)
@@ -96,4 +96,6 @@ if selected == "Projects":
         st.write("##")
         col5, col6 = st.columns(1, 2)
         with col5:
-            st.image(image)
+            st.subheader("Student Attendance Management Systems")
+            st.write("""
+            
