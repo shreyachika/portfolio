@@ -94,7 +94,6 @@ if selected == "Projects":
     with st.container():
         st.header("My Projects")
         st.write("##")
-        col5, col6 = st.columns(1, 2)
+        col5, col6 = st.columns(2)
         with col5:
             st.image(image)
-            
