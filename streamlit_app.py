@@ -97,3 +97,8 @@ if selected == "Projects":
         col5, col6 = st.columns(2)
         with col5:
             st.image(image)
+        with col6:
+            st.subheader("Student Attendance Management Systems")
+            st.write("""
+            /Users/shreyachikatmarla/Desktop/Pic.png
+            
