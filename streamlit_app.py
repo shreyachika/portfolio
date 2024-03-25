@@ -100,5 +100,7 @@ if selected == "Projects":
         with col6:
             st.subheader("Student Attendance Management Systems")
             st.write("""
-            /Users/shreyachikatmarla/Desktop/Pic.png
+            https://github.com/shreyachika/portfolio/blob/main/Pic.png
+            """)
+            st.markdown([Visit GitHub Repo]()"
             
