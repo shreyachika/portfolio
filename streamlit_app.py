@@ -103,4 +103,10 @@ if selected == "Projects":
             https://github.com/shreyachika/portfolio/blob/main/Pic.png
             """)
             st.markdown("[Visit GitHub Repo](https://github.com/shreyachika/Network-Slicing-Recognition)")
+        with col7:
+            st.subheader("Heart Disease Prediction")
+            st.markdown("[Visit GitHub Repo](https://github.com/shreyachika/Heart-Disease-Prediction)")
+        with col8:
+            st.subheader("Demographically-Enhanced Movie Recommendation System for Personalized Book Suggestions in Big Data")
+            st.markdown("[Visit GitHub Repo](https://github.com/shreyachika/MovieBookRecSys-BigData)")
             
