@@ -99,12 +99,20 @@ if selected == "Projects":
             st.image(image)
         with col6:
             st.subheader("Network-Slicing-Recognition")
+            st.write(""""
+            https://github.com/shreyachika/Network-Slicing-Recognition/blob/main/bg.jpg
+            """")
             st.markdown("[Visit GitHub Repo](https://github.com/shreyachika/Network-Slicing-Recognition)")
         with col7:
             st.subheader("Heart Disease Prediction")
-            st.write(
+            st.write(""""
+            https://github.com/shreyachika/portfolio/blob/main/Heart.png
+            """")
             st.markdown("[Visit GitHub Repo](https://github.com/shreyachika/Heart-Disease-Prediction)")
         with col8:
             st.subheader("Demographically-Enhanced Movie Recommendation System for Personalized Book Suggestions in Big Data")
+            st.write(""""
+            https://github.com/shreyachika/portfolio/blob/main/MovieBook.jpeg
+            """")
             st.markdown("[Visit GitHub Repo](https://github.com/shreyachika/MovieBookRecSys-BigData)")
             
