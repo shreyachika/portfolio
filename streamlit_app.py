@@ -19,11 +19,6 @@ lottie_url = "https://lottie.host/17c36458-45d5-47ae-b9fc-9ff9b5cf73b5/IQmu8jcGO
 lottie_data = load_lottieurl(lottie_url)
 image = Image.open("Pic.png")
 
-if lottie_data is not None:
-    st_lottie(lottie_data)
-else:
-    st.error("Failed to load Lottie animation.")
-
 st.write("##")
 st.subheader("Hey Guys :wave:")
 st.title("My Portfolio Website")
@@ -57,7 +52,10 @@ if selected == 'About':
             st.subheader("I am Shreya Chikatmarla")
             st.title("Grad at SJSU")
         with col2:
-            st_lottie(lottie_data)
+            if lottie_data is not None:
+                st_lottie(lottie_data)
+            else:
+                st.error("Failed to load Lottie animation.")
 
     st.write("---")
 
