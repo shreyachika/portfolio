@@ -102,5 +102,5 @@ if selected == "Projects":
             st.write("""
             https://github.com/shreyachika/portfolio/blob/main/Pic.png
             """)
-            st.markdown([Visit GitHub Repo](https://github.com/shreyachika/Network-Slicing-Recognition)")
+            st.markdown("[Visit GitHub Repo](https://github.com/shreyachika/Network-Slicing-Recognition)")
             
