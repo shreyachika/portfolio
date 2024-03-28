@@ -59,38 +59,38 @@ if selected == 'About':
         with col2:
             st_lottie(lottie_data)
 
-st.write("---")
+    st.write("---")
 
-with st.container():
-    col3, col4 = st.columns(2)
-    with col3:
-        st.subheader("""
-        Education
-        - San Jose State University, San Jose
-              - Master of Science in Data Science
-              - Grade: 3.5 / 4
-        - Jawaharlal Nehru Technological University of Hyderabad
-              - Master of Technology in Computer Science Engineering
-              - Grade: 3.8 / 4
-        - Osmania University
-              - Bachelor of Engineering in Information Technology
-              - Grade: 3.9 / 4
-        """)
-    with col4:
-        st.subheader("""
-        Experience
-        - Graduate Research Assistant
-               - August 2023 to February 2024
-               - San Jose, CA
-        - QA Engineer - Data Integration
-               - March 2020 - February 2022
-               - Accenture, India
-        - Software Engineer Intern
-               - January 2017 - July 2017
-               - AppCloud Software Solutions, India
-        """)
+    with st.container():
+        col3, col4 = st.columns(2)
+        with col3:
+            st.subheader("""
+            Education
+            - San Jose State University, San Jose
+                  - Master of Science in Data Science
+                  - Grade: 3.5 / 4
+            - Jawaharlal Nehru Technological University of Hyderabad
+                  - Master of Technology in Computer Science Engineering
+                  - Grade: 3.8 / 4
+            - Osmania University
+                  - Bachelor of Engineering in Information Technology
+                  - Grade: 3.9 / 4
+            """)
+        with col4:
+            st.subheader("""
+            Experience
+            - Graduate Research Assistant
+                   - August 2023 to February 2024
+                   - San Jose, CA
+            - QA Engineer - Data Integration
+                   - March 2020 - February 2022
+                   - Accenture, India
+            - Software Engineer Intern
+                   - January 2017 - July 2017
+                   - AppCloud Software Solutions, India
+            """)
 
-if selected == "Projects":
+elif selected == "Projects":
     with st.container():
         st.header("My Projects")
         st.write("##")
@@ -115,5 +115,3 @@ if selected == "Projects":
             https://github.com/shreyachika/portfolio/blob/main/MovieBook.jpeg
             """)
             st.markdown("[Visit GitHub Repo](https://github.com/shreyachika/MovieBookRecSys-BigData)")
-            
-            
