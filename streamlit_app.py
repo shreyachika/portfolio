@@ -113,3 +113,20 @@ elif selected == "Projects":
             https://github.com/shreyachika/portfolio/blob/main/MovieBook.jpeg
             """)
             st.markdown("[Visit GitHub Repo](https://github.com/shreyachika/MovieBookRecSys-BigData)")
+
+elif selected == "Contact":
+    st.header("Contact Me")
+    st.write("Feel free to reach out to me for collaboration, inquiries, or just to connect!")
+    
+    with st.container():
+        col9, col10 = st.columns(2)
+        with col9:
+            st.subheader("Email:")
+            st.write("cshreya955@gmail.com")
+            
+        with col10:
+            st.subheader("LinkedIn:")
+            st.write("[Connect on LinkedIn](https://www.linkedin.com/in/shreya-chikatmarla-6669b5242/)")
+            
+    st.write("---")
+    
