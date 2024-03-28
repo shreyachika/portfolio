@@ -98,9 +98,9 @@ if selected == "Projects":
         with col5:
             st.image(image)
         with col6:
-            st.subheader("Student Attendance Management Systems")
+            st.subheader("Network-Slicing-Recognition")
             st.write("""
             https://github.com/shreyachika/portfolio/blob/main/Pic.png
             """)
-            st.markdown([Visit GitHub Repo]()"
+            st.markdown([Visit GitHub Repo](https://github.com/shreyachika/Network-Slicing-Recognition)")
             
