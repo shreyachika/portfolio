@@ -123,10 +123,9 @@ elif selected == "Contact":
         with col9:
             st.subheader("Email:")
             st.write("cshreya955@gmail.com")
-            
-        with col10:
+         with col10:
             st.subheader("LinkedIn:")
             st.write("[Connect on LinkedIn](https://www.linkedin.com/in/shreya-chikatmarla-6669b5242/)")
             
-    st.write("---")
+   
     
