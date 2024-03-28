@@ -83,7 +83,7 @@ with st.container():
                - August 2023 to February 2024
                - San Jose, CA
         - QA Engineer - Data Integration
-               - March 2020 - February 2021
+               - March 2020 - February 2022
                - Accenture, India
         - Software Engineer Intern
                - January 2017 - July 2017
