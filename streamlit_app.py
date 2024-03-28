@@ -90,7 +90,7 @@ with st.container():
                - AppCloud Software Solutions, India
         """)
 
-f selected == "Projects":
+if selected == "Projects":
     with st.container():
         st.header("My Projects")
         st.write("##")
