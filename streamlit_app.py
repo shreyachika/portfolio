@@ -94,14 +94,11 @@ if selected == "Projects":
     with st.container():
         st.header("My Projects")
         st.write("##")
-        col5, col6 = st.columns(2)
+        col5, col6, col7, col8 = st.columns(4)
         with col5:
             st.image(image)
         with col6:
             st.subheader("Network-Slicing-Recognition")
-            st.write("""
-            https://github.com/shreyachika/portfolio/blob/main/Pic.png
-            """)
             st.markdown("[Visit GitHub Repo](https://github.com/shreyachika/Network-Slicing-Recognition)")
         with col7:
             st.subheader("Heart Disease Prediction")
