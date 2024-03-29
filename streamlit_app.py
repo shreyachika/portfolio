@@ -87,6 +87,20 @@ if selected == 'About':
                    - January 2017 - July 2017
                    - AppCloud Software Solutions, India
             """)
+        with st.container():
+            st.subheader("Skills")
+            st.write("""
+            Core Skills:
+            - Programming: Python, SQL
+            - Machine Learning/Deep Learning: PyTorch, TensorFlow, Keras, scikit-learn
+            - Data Engineering: pandas, NumPy, Apache Spark, Hadoop
+            - Visualization & Deployment: Matplotlib, Seaborn, Plotly, Tableau, Power BI, Streamlit, Flask
+            
+            Technologies & Tools
+            - Cloud & DevOps: AWS, Azure, Docker, Git
+            - Databases: MySQL, PostgreSQL, MongoDB
+            - Collaboration & Project Management: JIRA
+        """)
 
 elif selected == "Projects":
     with st.container():
