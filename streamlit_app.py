@@ -100,7 +100,9 @@ if selected == 'About':
                - Cloud & DevOps: AWS, Azure, Docker, Git
                - Databases: MySQL, PostgreSQL, MongoDB
                - Collaboration & Project Management: JIRA
-        """)
+            """)
+
+# Rest of the code...
 
 elif selected == "Projects":
     with st.container():
