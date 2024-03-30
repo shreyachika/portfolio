@@ -62,33 +62,22 @@ if selected == 'About':
     with st.container():
         col3, col4 = st.columns(2)
         with col3:
-            st.subheader("""
-            Education
-            - San Jose State University, San Jose
-                  - Master of Science in Data Science
-                  - Grade: 3.5 / 4
-            - Jawaharlal Nehru Technological University of Hyderabad
-                  - Master of Technology in Computer Science Engineering
-                  - Grade: 3.8 / 4
-            - Osmania University
-                  - Bachelor of Engineering in Information Technology
-                  - Grade: 3.9 / 4
+            st.subheader("Education")
+            st.write("""
+            - San Jose State University, San Jose - Master of Science in Data Science - Grade: 3.5 / 4
+            - Jawaharlal Nehru Technological University of Hyderabad - Master of Technology in Computer Science Engineering - Grade: 3.8 / 4
+            - Osmania University - Bachelor of Engineering in Information Technology - Grade: 3.9 / 4
             """)
         with col4:
-            st.subheader("""
-            Experience
-            - Graduate Research Assistant
-                   - August 2023 to February 2024
-                   - San Jose, CA
-            - QA Engineer - Data Integration
-                   - March 2020 - February 2022
-                   - Accenture, India
-            - Software Engineer Intern
-                   - January 2017 - July 2017
-                   - AppCloud Software Solutions, India
+            st.subheader("Experience")
+            st.write("""
+            - Graduate Research Assistant - August 2023 to February 2024 - San Jose, CA
+            - QA Engineer - Data Integration - March 2020 - February 2022 - Accenture, India
+            - Software Engineer Intern - January 2017 - July 2017 - AppCloud Software Solutions, India
             """)
-        with st.container():
-            col5, col6 = st.columns(2)
+
+    with st.container():
+        col5, col6 = st.columns(2)
         with col5:
             st.subheader("Skills")
             st.write("""
@@ -98,7 +87,7 @@ if selected == 'About':
                - Data Engineering: pandas, NumPy, Apache Spark, Hadoop
                - Visualization & Deployment: Matplotlib, Seaborn, Plotly, Tableau, Power BI, Streamlit, Flask
             
-            Technologies & Tools
+            Technologies & Tools:
                - Cloud & DevOps: AWS, Azure, Docker, Git
                - Databases: MySQL, PostgreSQL, MongoDB
                - Collaboration & Project Management: JIRA
