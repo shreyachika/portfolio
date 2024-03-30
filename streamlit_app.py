@@ -88,6 +88,8 @@ if selected == 'About':
                    - AppCloud Software Solutions, India
             """)
         with st.container():
+            col5, col6 = st.columns(2)
+        with col5:
             st.subheader("Skills")
             st.write("""
             Core Skills:
@@ -101,7 +103,7 @@ if selected == 'About':
                - Databases: MySQL, PostgreSQL, MongoDB
                - Collaboration & Project Management: JIRA
             """)
-        with st.container():
+        with col6:
             st.subheader("Certifications and Achievements:")
             st.write("""
             - Introduction to Data Analytics (Simplilearn)
