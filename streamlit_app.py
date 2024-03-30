@@ -101,8 +101,14 @@ if selected == 'About':
                - Databases: MySQL, PostgreSQL, MongoDB
                - Collaboration & Project Management: JIRA
             """)
-
-# Rest of the code...
+        with st.container():
+            st.subheader("Certifications and Achievements:")
+            st.write("""
+            - Introduction to Data Analytics (Simplilearn)
+            - Machine Learning & Deep Learning in Python & R (Udemy)
+            - Web Development Certification (Internshala)
+            - Participated in The Programming League on " Coding in CProgramming" held by Computer Society of India.
+            """)
 
 elif selected == "Projects":
     with st.container():
