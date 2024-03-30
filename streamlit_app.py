@@ -33,7 +33,7 @@ My projects extend to developing personalized recommendation systems and impleme
 
 Eager to contribute to technological innovation, I seek opportunities to collaborate on impactful solutions. Let's connect and explore the possibilities together! 🚀🔍
 """)
-st.write("[Read More](https://share.streamlit.io/)")  
+ 
 st.write('---')
 
 with st.container():
