@@ -123,10 +123,13 @@ elif selected == "Contact":
     st.write("Feel free to reach out to me for collaboration, inquiries, or just to connect!")
     
     with st.container():
-        col9, col10 = st.columns(2)
+        col9, col10, col11 = st.columns(3)
         with col9:
             st.subheader("Email:")
             st.write("cshreya955@gmail.com")
         with col10:
             st.subheader("LinkedIn:")
             st.write("[Connect on LinkedIn](https://www.linkedin.com/in/shreya-chikatmarla-6669b5242/)")
+        with col11:
+            st.subheader("Resume:")
+            st.write("[View My Resume](https://github.com/shreyachika/portfolio/blob/main/Resume.pdf)")
