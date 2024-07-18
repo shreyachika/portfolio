@@ -71,7 +71,7 @@ if selected == 'About':
         with col4:
             st.subheader("Experience")
             st.write("""
-            - Graduate Research Assistant - August 2023 to February 2024 - San Jose, CA
+            - Graduate Research Assistant - August 2023 to Till Date - San Jose, CA
             - QA Engineer - Data Integration - March 2020 - February 2022 - Accenture, India
             - Software Engineer Intern - January 2017 - July 2017 - AppCloud Software Solutions, India
             """)
