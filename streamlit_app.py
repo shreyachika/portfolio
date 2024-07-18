@@ -73,7 +73,7 @@ if selected == 'About':
             st.write("""
             - Graduate Research Assistant - August 2023 to Till Date - San Jose, CA
             - Data Analyst - March 2020 - February 2022 - Accenture, India
-            - Software Engineer Intern - January 2017 - July 2017 - AppCloud Software Solutions, India
+            - Data Engineer Intern - January 2017 - July 2017 - AppCloud Software Solutions, India
             """)
 
     with st.container():
