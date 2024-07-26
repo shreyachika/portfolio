@@ -130,6 +130,4 @@ elif selected == "Contact":
         with col10:
             st.subheader("LinkedIn:")
             st.write("[Connect on LinkedIn](https://www.linkedin.com/in/shreya-chikatmarla-6669b5242/)")
-        with col11:
-            st.subheader("Resume:")
-            st.write("[View My Resume](https://github.com/shreyachika/portfolio/blob/main/ReSume1.pdf)")
+        
